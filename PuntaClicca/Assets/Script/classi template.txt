@@ -1,20 +1,22 @@
 using UnityEngine;
 
+- nome classe InteractableNomeOggetto
 public class InteractableWizard : MonoBehaviour, IInteractable{
 
 	public static Action OnClickWizardPondersOrb; <- nome azione svolta quando cliccato Interactable Wizard
 
 	public void OnClickAction(){
-		//mettici codice di cosa succede quando si clicca su oggetto
-		OnClickWizardPondersOrb.Invoke();
+		//mettici codice di cosa succede quando si clicca su oggetto o if per capire se fai o no Invoke
+		OnClickWizardPondersOrb.Invoke(); // quando fai Invoke() di un'azione esegue tutti i metodi iscritti ad esso
 	}
 
 	
 }
 
+// nome classe Oggetto o ManagerAudio
 public class Wizard : MonoBehaviour{
 	void Start(){
-		InteractableWizard.OnClickWizardPondersOrb += WizardPonders;
+		InteractableWizard.OnClickWizardPondersOrb += WizardPonders; // iscrizione del metodo WizardPonders all'azione OnClickWizardPondersOrb 
 	}
 
 	private void WizardPonders(){
@@ -33,16 +35,17 @@ using UnityEngine.Playables;
 
 public class DungeonStoryCinematicDirector : MonoBehaviour{
 	[SerializeFiled]
-	private PlayableDirector OrbGlowCinematic;
+	private PlayableDirector OrbGlowCinematic; // crea un PlayableDirector per ogni timeline che abbiamo
 
 	void Start(){
 		SubscribeToStoryEvents();
 	}
 
 	void SubscribeToStoryEvents(){
-		InteractableWizard.OnClickWizardPondersOrb += PlayOrbGlowCinematic;
+		InteractableWizard.OnClickWizardPondersOrb += PlayOrbGlowCinematic; //fai l'iscrizione di tutte le timeline ai rispettivi interactables
 	}
 
+	// crea un metodo simile a questo per ogni cutsene che abbiamo
 	private void PlayOrbGlowCinematic(){
 		OrbGlowCinematic.Play();
 		InteractableWizard.OnClickWizardPondersOrb -= PlayOrbGlowCinematic;
