@@ -1,0 +1,50 @@
+using UnityEngine;
+
+public class InteractableWizard : MonoBehaviour, IInteractable{
+
+	public static Action OnClickWizardPondersOrb; <- nome azione svolta quando cliccato Interactable Wizard
+
+	public void OnClickAction(){
+		//mettici codice di cosa succede quando si clicca su oggetto
+		OnClickWizardPondersOrb.Invoke();
+	}
+
+	
+}
+
+public class Wizard : MonoBehaviour{
+	void Start(){
+		InteractableWizard.OnClickWizardPondersOrb += WizardPonders;
+	}
+
+	private void WizardPonders(){
+		//codice di cosa fa wizardPonders;
+	}
+}
+
+
+- metti script InteractableItemsActivation negli oggetti interagibili
+
+
+- nel null della storia che contiene tutti null con timelines inserisci questo script
+
+using UnityEngine;
+using UnityEngine.Playables;
+
+public class DungeonStoryCinematicDirector : MonoBehaviour{
+	[SerializeFiled]
+	private PlayableDirector OrbGlowCinematic;
+
+	void Start(){
+		SubscribeToStoryEvents();
+	}
+
+	void SubscribeToStoryEvents(){
+		InteractableWizard.OnClickWizardPondersOrb += PlayOrbGlowCinematic;
+	}
+
+	private void PlayOrbGlowCinematic(){
+		OrbGlowCinematic.Play();
+		InteractableWizard.OnClickWizardPondersOrb -= PlayOrbGlowCinematic;
+	}
+}
