@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f819cce3ea0ba4d964e6b812a4f207, type: 3}
   m_Name: Key
   m_EditorClassIdentifier: 
-  Id: 1
-  RequiredItemsId: 00000000
+  Id: 2
+  RequiredItemsId: 0000000001000000
   InteractionPhrases: []
   yesInteractionPhrase: 
