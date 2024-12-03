@@ -24,7 +24,6 @@ public class CursorController : MonoBehaviour
 
     void Awake() {
         controls = new InteractiveCursorControls();
-        controls.Mouse.Click.started += _ => StartedClick();
         controls.Mouse.Click.performed += _ => EndedClick();
         MakeCursorDefault += DefaultCursorTexture;
         MakeCursorInteractive += InteractiveCursorTexture;
@@ -79,10 +78,6 @@ public class CursorController : MonoBehaviour
     private void DefaultCursorTexture(){
         cursorIsInteractive = false;
         Cursor.SetCursor(default, default, default);
-    }
-
-    private void StartedClick(){
-
     }
 
     private void EndedClick(){
