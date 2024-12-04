@@ -81,6 +81,7 @@ public class CursorController : MonoBehaviour
     }
 
     private void EndedClick(){
+        TextCanvas.OnHideText?.Invoke();
         OnClickInteractable();
     }
     

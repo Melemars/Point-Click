@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f819cce3ea0ba4d964e6b812a4f207, type: 3}
-  m_Name: Broom
+  m_Name: Plate
   m_EditorClassIdentifier: 
   Id: 0
-  RequiredItemsId: ffffffff
+  RequiredItemsId: 
   InteractionPhrases:
-  - Non posso prendere la scopa
-  - Oh no
-  yesInteractionPhrase: "Scopa raccolta, \xE8 il momento di prendere quella chive"
-  InventoryImgTag: InventorySlot1
+  - it's a plate
+  - wow
+  yesInteractionPhrase: 
+  InventoryImgTag: 
