@@ -452,9 +452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edde79cbbcbd7e14aa6a9bd00ba2d128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InventoryItems:
-  - {fileID: 11400000, guid: 3ab471bf0081bad4590c2757bf99bb28, type: 2}
-  - {fileID: 11400000, guid: 218835c12455fba479c8fa63ad04afd5, type: 2}
+  InventoryItems: []
 --- !u!4 &500807783
 Transform:
   m_ObjectHideFlags: 0
@@ -618,7 +616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1259414111
 Transform:
   m_ObjectHideFlags: 0
@@ -732,7 +730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7908484bac4aca4ca16dd2ab0758bb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  broom: {fileID: 11400000, guid: df72d962cfe9a6646a997c6d95fe32e7, type: 2}
+  broom: {fileID: 11400000, guid: 3ab471bf0081bad4590c2757bf99bb28, type: 2}
 --- !u!1 &1406238809
 GameObject:
   m_ObjectHideFlags: 0

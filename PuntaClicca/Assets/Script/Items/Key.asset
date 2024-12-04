@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Key
   m_EditorClassIdentifier: 
   Id: 2
-  RequiredItemsId: 0000000001000000
+  RequiredItemsId: 00000000
   InteractionPhrases: []
   yesInteractionPhrase: 
