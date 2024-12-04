@@ -47,19 +47,23 @@ public class Inventory : MonoBehaviour
     }
 
     public void AddItemInInventory(ItemScriptableObject item){
-        //Debug.Log("Oggetto Add");
+        Debug.Log("Oggetto Add");
         InventoryItems.Add(item);
+        if(item.InventoryImgTag != null)
+            CanvasInventory.OnAddInventoryObject.Invoke(item.InventoryImgTag);
+        else
+            Debug.Log($"{item} string is null");
     }
 
     public void RemoveItemInInventoryById(List<int> Ids){
         for (int i=0; i<Ids.Count; i++){
-            foreach(ItemScriptableObject it in InventoryItems){
-                if (Ids[i] == it.Id){
-                    InventoryItems.Remove(it);
+            foreach(ItemScriptableObject item in InventoryItems){
+                if (Ids[i] == item.Id){
+                    InventoryItems.Remove(item);
+                    CanvasInventory.OnRemoveInventoryObject.Invoke(item.InventoryImgTag);
                     break;
                 }
             }
         }
-        
     }
 }

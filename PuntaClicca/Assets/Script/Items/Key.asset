@@ -16,3 +16,4 @@ MonoBehaviour:
   RequiredItemsId: 00000000
   InteractionPhrases: []
   yesInteractionPhrase: 
+  InventoryImgTag: InventorySlot2
