@@ -15,6 +15,7 @@ public class TextCanvas : MonoBehaviour
     private TextMeshProUGUI charText;
 
     private void Awake(){
+        HideText();
         OnShowInteractionText += CheckNumInteractionPhrase;
         OnHideText += HideText;
         OnShowYesText += ShowText;
