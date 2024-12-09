@@ -12,10 +12,10 @@ public class HallwayOkButton : MonoBehaviour
     {
         if (Minigame.Instance.CheckMinigamePuzzle())
         {
-            //fai roba
+            //do things and remember to setActive(false) using timeline on Interactable which active Minigame
             interactableManager.SetActive(true);
             MinigameCanvas.SetActive(false);
-            //TextCanvas.OnShowYesText(doorEvent); //decommenta se vuoi una frase di yes quando finisce minigame
+            //TextCanvas.OnShowYesText(doorEvent);
         }
         else
         {

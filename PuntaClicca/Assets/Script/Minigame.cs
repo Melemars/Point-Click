@@ -41,7 +41,7 @@ public class Minigame : MonoBehaviour
         return true;
     }
 
-    private void ClearTryList()
+    public void ClearTryList()
     {
         this.tryItems.Clear();
     }
