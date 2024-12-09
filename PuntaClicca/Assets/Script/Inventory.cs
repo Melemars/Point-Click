@@ -3,13 +3,14 @@ using System.Data.Common;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Inventory : MonoBehaviour
 {
     public static Inventory Instance {get; private set;}
 
     [SerializeField]
-    private List<ItemScriptableObject> InventoryItems;
+    private List<ItemScriptableObject> inventoryItems;
 
     private void Awake(){
         Instance = this;
@@ -23,9 +24,9 @@ public class Inventory : MonoBehaviour
         }
         else {
             int numFoundObjects = 0;
-            Debug.Log(InventoryItems);
-            if(InventoryItems != null){        
-                foreach(ItemScriptableObject it in InventoryItems){
+            Debug.Log(inventoryItems);
+            if(inventoryItems != null){        
+                foreach(ItemScriptableObject it in inventoryItems){
                     if(item.RequiredItemsId.Contains(it.Id)){
                         numFoundObjects++;
                     }
@@ -48,7 +49,7 @@ public class Inventory : MonoBehaviour
 
     public void AddItemInInventory(ItemScriptableObject item){
         Debug.Log("Oggetto Add");
-        InventoryItems.Add(item);
+        inventoryItems.Add(item);
         if(item.InventoryImgTag != null)
             CanvasInventory.OnAddInventoryObject.Invoke(item.InventoryImgTag);
         else
@@ -57,9 +58,9 @@ public class Inventory : MonoBehaviour
 
     public void RemoveItemInInventoryById(List<int> Ids){
         for (int i=0; i<Ids.Count; i++){
-            foreach(ItemScriptableObject item in InventoryItems){
+            foreach(ItemScriptableObject item in inventoryItems){
                 if (Ids[i] == item.Id){
-                    InventoryItems.Remove(item);
+                    inventoryItems.Remove(item);
                     CanvasInventory.OnRemoveInventoryObject.Invoke(item.InventoryImgTag);
                     break;
                 }
