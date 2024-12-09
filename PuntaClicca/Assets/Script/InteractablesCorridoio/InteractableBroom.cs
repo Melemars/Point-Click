@@ -9,7 +9,7 @@ public class InteractableBroom : MonoBehaviour, IInteractable
     public void OnClickAction()
     {
         if(Inventory.Instance.CheckInventory(broom))
-            TextCanvas.OnShowYesText(broom.yesInteractionPhrase);
+            TextCanvas.OnShowYesText(broom);
         else{
             TextCanvas.OnShowInteractionText(broom, numInteractionPhrase);
             numInteractionPhrase++;

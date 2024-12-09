@@ -911,6 +911,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bg_text: {fileID: 2035069904}
+  characterPortrait: {fileID: 104709842}
+  mainCharactePortrait: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
   charText: {fileID: 1967304522}
 --- !u!1001 &949215391
 PrefabInstance:
@@ -2031,10 +2033,10 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 500807783}
-  - {fileID: 1406238811}
-  - {fileID: 176601582}
-  - {fileID: 1814829824}
   - {fileID: 1140964153}
+  - {fileID: 1406238811}
+  - {fileID: 500807783}
   - {fileID: 1255189845}
   - {fileID: 949019885}
+  - {fileID: 1814829824}
+  - {fileID: 176601582}
