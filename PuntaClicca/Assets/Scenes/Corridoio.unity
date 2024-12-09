@@ -919,7 +919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 824885929967243137, guid: 1c3f7fc67cc402c4f9096f339b36b47d, type: 3}
       propertyPath: m_Name
-      value: InventoryImg(1)
+      value: InventoryImg(2)
       objectReference: {fileID: 0}
     - target: {fileID: 824885929967243137, guid: 1c3f7fc67cc402c4f9096f339b36b47d, type: 3}
       propertyPath: m_IsActive

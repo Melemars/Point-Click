@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MinigameObject : MonoBehaviour
@@ -9,6 +10,11 @@ public class MinigameObject : MonoBehaviour
     private void OnEnable()
     {
         Minigame.OnMinigameEnd += IsActiveFalse;
+    }
+
+    private void OnDisable()
+    {
+        Minigame.OnMinigameEnd -= IsActiveFalse;
     }
     
     public void CheckObjectInTryItems()
