@@ -1,6 +1,7 @@
 using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MinigameObject : MonoBehaviour
 {
@@ -21,12 +22,14 @@ public class MinigameObject : MonoBehaviour
     {
         if (!isActive)
         {
+            transform.GetChild(0).gameObject.SetActive(true);
             Minigame.Instance.tryItems.Add(item);
             isActive = true;
             Debug.Log(Minigame.Instance.tryItems.Count);
         }
         else
         {
+            transform.GetChild(0).gameObject.SetActive(false);
             Minigame.Instance.tryItems.Remove(item);
             isActive = false;
             Debug.Log(Minigame.Instance.tryItems.Count);
