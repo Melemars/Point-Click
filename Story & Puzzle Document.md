@@ -16,7 +16,7 @@ M mentre si incammina verso il corridoio dove si trova la porta per la soffitta:
 **Soluzione:** La porta della soffitta è in fondo al corridoio, ma è chiusa a chiave. La chiave, che è solitamente riposta su un gancio attaccato al muro accanto alla porta è caduta ed è stata nascosta dal gatto dietro al mobile all'inizio del corridoio. Mimi dovrà afferrarla con l'aiuto della scopa che si trova nello sgabuzzino.
 
 #### Interazioni
-- **Soffitta**
+- **Soffitta**  
     a. "La soffitta è chiusa a chiave"
     b. _[Dopo aver raccolto tutti gli oggetti]_
         - **Chiave:** "Ho aperto la porta!" **— FINE PUZZLE ―**
