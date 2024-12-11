@@ -47,4 +47,8 @@ M mentre si incammina verso il corridoio dove si trova la porta per la soffitta:
 #### Fine Puzzle  
 Mimi apre la porta e entra nella soffitta. Dal corridoio Ceci (il gatto) si alza e la segue.  
 
-### Soffitta
+### Soffitta  
+Mimi entra nella soffitta, si guarda in giro e vede un libro in fondo alla stanza, coperto di polvere. Si  avvicina e lo spolvera con la mano, poi lo apre e lo sfoglia. Chiude il libro e si avvia verso la porta per dare il diario al nonno, ma viene interrota dal rumore di uno sparo. Mimi scende lentamente dalla soffitta e sbircia dalla porta; vede dei soldati in salotto.
+Voce (OFF): "Trovate il diario!"
+Mimi, guardando il libro che ha in mano: "Il… diario? Vogliono questo?"
+Mimi chiude la porta e risale le scale in silenzio.
