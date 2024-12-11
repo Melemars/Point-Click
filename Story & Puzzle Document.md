@@ -44,5 +44,7 @@ M mentre si incammina verso il corridoio dove si trova la porta per la soffitta:
 - **Scopa**  
     _[**Scopa** aggiunta all'inventario]_  
   
-#### FINE PUZZLE  
+#### Fine Puzzle  
 Mimi apre la porta e entra nella soffitta. Dal corridoio Ceci (il gatto) si alza e la segue.  
+
+### Soffitta
