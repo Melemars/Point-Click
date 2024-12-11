@@ -38,6 +38,7 @@ public class MinigameObject : MonoBehaviour
 
     public void IsActiveFalse()
     {
+        transform.GetChild(0).gameObject.SetActive(false);
         isActive = false;
     }
 }

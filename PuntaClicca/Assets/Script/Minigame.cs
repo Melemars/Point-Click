@@ -19,7 +19,7 @@ public class Minigame : MonoBehaviour
     {
         if (tryItems.Count() == 0 || tryItems.Count() != correctItems.Count())
         {
-            Debug.Log("false");
+            //Debug.Log("false");
             OnMinigameEnd.Invoke();
             ClearTryList();
             return false;
@@ -27,7 +27,7 @@ public class Minigame : MonoBehaviour
         
         for (int i = 0; i < this.tryItems.Count; i++)
         {
-            Debug.Log(this.tryItems[i].name);
+            //Debug.Log(this.tryItems[i].name);
             if (correctItems.Contains(this.tryItems[i]) == false)
             {
                 OnMinigameEnd.Invoke();
@@ -35,7 +35,7 @@ public class Minigame : MonoBehaviour
                 return false;
             }
         }
-        Debug.Log(this.tryItems.Count);
+        //Debug.Log(this.tryItems.Count);
         OnMinigameEnd.Invoke();
         ClearTryList();
         return true;
