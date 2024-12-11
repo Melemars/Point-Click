@@ -997,7 +997,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MinigameCanvas: {fileID: 1199033075}
   doorEvent: {fileID: 11400000, guid: 983b66a6e02db3f49bd22cff7ec30f75, type: 2}
-  interactableManager: {fileID: 176601581}
 --- !u!114 &736964595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1462,6 +1461,51 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 246024409922990382, guid: 1c3f7fc67cc402c4f9096f339b36b47d, type: 3}
   m_PrefabInstance: {fileID: 949215391}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &971366837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 971366838}
+  - component: {fileID: 971366839}
+  m_Layer: 0
+  m_Name: GameHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &971366838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971366837}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &971366839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971366837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36990d99e884b00459866594979388fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableManager: {fileID: 176601581}
 --- !u!1 &1080529765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,7 +1877,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MinigameCanvas: {fileID: 1199033075}
-  interactableManager: {fileID: 176601581}
 --- !u!114 &1182837437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2478,7 +2521,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c68b698aa5c9244cbf3f162dcc2d3e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactableManager: {fileID: 176601581}
   MinigameCanvas: {fileID: 1199033075}
 --- !u!1 &1682386792
 GameObject:
@@ -2725,7 +2767,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.111320674, g: 0.19315122, b: 1, a: 1}
     m_HighlightedColor: {r: 0.36037737, g: 1, b: 0.982668, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2871,7 +2913,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 0.36037737, b: 0.36037737, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -3332,6 +3374,7 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1140964153}
+  - {fileID: 971366838}
   - {fileID: 1406238811}
   - {fileID: 500807783}
   - {fileID: 1255189845}
