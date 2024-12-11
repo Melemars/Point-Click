@@ -2,13 +2,18 @@ using UnityEngine;
 
 public class EscButton : MonoBehaviour
 {
-    [SerializeField] private GameObject MinigameCanvas;
+    [SerializeField] private GameObject Canvas;
     
     public void EscMinigame()
     {
         Minigame.OnMinigameEnd.Invoke();
         Minigame.Instance.ClearTryList();
-        MinigameCanvas.SetActive(false);
+        EscCanvas();
+    }
+
+    public void EscCanvas()
+    {
+        Canvas.SetActive(false);
         GameHandler.OnCanvasDisappear?.Invoke();
     }
 }
