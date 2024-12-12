@@ -304,9 +304,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1602846618528813655, guid: 55324cdb819cf8a4c963961da50f0cc7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602846618528813655, guid: 55324cdb819cf8a4c963961da50f0cc7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602846618528813655, guid: 55324cdb819cf8a4c963961da50f0cc7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602846618528813655, guid: 55324cdb819cf8a4c963961da50f0cc7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602846618528813655, guid: 55324cdb819cf8a4c963961da50f0cc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2989672563604378768, guid: 55324cdb819cf8a4c963961da50f0cc7, type: 3}
       propertyPath: m_Name
       value: Soffitta
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350032597369529819, guid: 55324cdb819cf8a4c963961da50f0cc7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.329
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705764224851327468, guid: 55324cdb819cf8a4c963961da50f0cc7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2932808
       objectReference: {fileID: 0}
     - target: {fileID: 7601427523699391101, guid: 55324cdb819cf8a4c963961da50f0cc7, type: 3}
       propertyPath: m_LocalScale.x
