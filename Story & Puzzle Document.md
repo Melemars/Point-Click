@@ -10,8 +10,6 @@ N sembra rifletta per un attimo, poi sembra avere un'idea: "Facciamo così, che 
 M riflette, poi si butta dalle ginocchia di N: "Va bene!"  
 M mentre si incammina verso il corridoio dove si trova la porta per la soffitta: "Il suo diario… intende quel libro di fiabe che mi leggeva sempre quand'ero piccola…"  
   
-**— E. S. —**  
-  
 **Obiettivo:** Mimi deve prendere il libro che si trova in soffitta.  
 **Soluzione:** La porta della soffitta è in fondo al corridoio, ma è chiusa a chiave. La chiave, che è solitamente riposta su un gancio attaccato al muro accanto alla porta è caduta ed è stata nascosta dal gatto dietro al mobile all'inizio del corridoio. Mimi dovrà afferrarla con l'aiuto della scopa che si trova nello sgabuzzino.  
   
@@ -46,9 +44,64 @@ M mentre si incammina verso il corridoio dove si trova la porta per la soffitta:
   
 #### Fine Puzzle  
 Mimi apre la porta e entra nella soffitta. Dal corridoio Ceci (il gatto) si alza e la segue.  
-
+  
 ### Soffitta  
 Mimi entra nella soffitta, si guarda in giro e vede un libro in fondo alla stanza, coperto di polvere. Si  avvicina e lo spolvera con la mano, poi lo apre e lo sfoglia. Chiude il libro e si avvia verso la porta per dare il diario al nonno, ma viene interrota dal rumore di uno sparo. Mimi scende lentamente dalla soffitta e sbircia dalla porta; vede dei soldati in salotto.
 Voce (OFF): "Trovate il diario!"
 Mimi, guardando il libro che ha in mano: "Il… diario? Vogliono questo?"
 Mimi chiude la porta e risale le scale in silenzio.
+  
+**Obiettivo:** scappare dalla soffitta con il libro  
+**Soluzione:** Aprire il libro e guardare la pagina con la corda. Una volta chiuso il libro la stessa corda sarà apparsa nella soffitta. Legare la corda al gancio per improvvisare un rampino da agganciare alla finestra della soffitta. Uscire dalla finestra scalando la corda.
+  
+#### Inventario  
+- **Gancio**  
+  
+#### Interazioni  
+- **Libro** (brilla)  
+    _[Il libro si apre automaticamente alla pagina con la corda]_
+    "Wow, questa pagina sta brillando!"
+    _[Una volta chiuso il libro appare la **corda**]_  
+- **Scale**  
+    a. "Non posso scendere adesso"  
+    b. "I soldati mi scoprirebbero!"  
+- **Finestra**  
+    a. "Devo trovare un modo per andarmene"  
+    b. "Potrei uscire dalla finestra, ma da questa altezza mi farei male"  
+    c. _[Dopo aver raccolto tutti gli oggetti]_  
+        - **Corda** e **gancio**: **— FINE PUZZLE ―**  
+        - **Corda**: "Posso scalare la corda, ma non so come attaccarla alla finestra"  
+        - **Gancio**: "Questo gancio è piuttosto solido, ma non posso usare solo quello per scendere dalla finestra"  
+- **Corda** (invisibile)  
+    _[Dopo aver interagito aperto il ilbro alla pagina con la corda]_
+    "E questa prima c'era? Ma sembra la stessa del libro!"  
+    _[**Corda** aggiunta all'inventario]_  
+  
+#### Fine Puzzle  
+Mimi apre la finestra della soffitta, attacca la corda alla finestra e esce. Una volta uscita i soldati e il Rizzler entrano in soffitta. Si guardano in giro. Uno di loro si avvicina alla finestra.  
+H: "Trovatelo!"  
+  
+### Pianura  
+Mimi scappa con il libro in mano finché non si ritrova in una pianura vuota.  
+M si ferma e si guarda in giro: "E adesso?"  
+M vede il libro che ricomincia a brillare.  
+  
+#### Interazioni  
+- **Libro** (brilla)  
+    _[Il libro si apre automaticamente sulla pagina con la grotta]_  
+    _[Una volta chiuso il libro la grotta appare nella pianura]_  
+    "La grotta del libro… È… è successo di nuovo!"  
+- **Grotta** (invisibile)  
+    **— FINE PUZZLE ―**  
+  
+#### Fine Puzzle  
+Mimi entra nella grotta. Poco dopo arrivano i soldati e Shitler.  
+Soldato, con in mano una mappa: "Questa grotta non c'era prima"  
+H: "State indietro"  
+H, dopo aver analizzato la grotta: "Quindi la pista era giusta…"  
+H ai soldati: "Restate qui, entrerò da solo"  
+H entra nella grotta, che scompare poco dopo.  
+  
+  
+## Parte 2 — Il Mondo Fantastico  
+### Grotta  
