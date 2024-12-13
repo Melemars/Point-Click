@@ -105,3 +105,32 @@ H entra nella grotta, che scompare poco dopo.
   
 ## Parte 2 — Il Mondo Fantastico  
 ### Grotta  
+Mimi si addentra il più possibile nella grotta, ma si ritrova in un vicolo cieco, bloccata da quello che sembra un enorme portone di pietra. Su un muro accanto alla porta sono agganciate 54 chiavi, disposte a griglia (9x6). Di queste 3 chiavi sono illuminate e brillano di un colore diverso. Sulla porta si trova una targa con un codice strano.  
+  
+[img](keywall)  
+[img](code)  
+  
+**Obiettivo:** Oltrepassare il portone  
+**Soluzione:** Il portone è chiuso a chiave. La chiave per aprirlo si trova tra quelle appese al muro. Per capire qual'è quella giusta si deve decifrare il codice:  
+- l'icona colorata rappresenta la chiave di partenza  
+- la freccia indica la direzione in cui contare  
+- i simboli sono dei numeri, rappresentano quante chiavi devi contare  
+- per capire i numeri bisogna consultare il libro alla pagina con gli stessi simboli (alcuni sono cancellati per non renderlo troppo ovvio)  
+- bisogna contare le chiavi nelle varie direzioni e trovare il percorso che porta alla chiave corretta
+  
+[img](solution)  
+  
+#### Interazioni
+- **Libro**  
+- **Portone**  
+    a. "Che porta enorme…"  
+    b. "È chiuso a chiave"  
+    c. "C'è una strana targa sopra al portone"  
+    d. "Sicuramente la chiave giusta è una di quelle appese al muro… ma quale?"  
+    e. _[Dopo aver raccolto la **chiave**]_  
+        **— FINE PUZZLE ―**  
+- **Targa**  
+    Si vede la targa da vicino  
+    a. "Chissà cosa significano quei strani simboli…"  
+    b. "Forse il diario del nonno mi può aiutare"  
+- 
