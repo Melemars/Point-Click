@@ -1,3 +1,4 @@
+using UnityEditor.Overlays;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneMan : MonoBehaviour
@@ -6,13 +7,31 @@ public class SceneMan : MonoBehaviour
 
     private void Start()
     {
-        PlayerPrefs.SetInt("Scene", SceneManager.GetActiveScene().buildIndex);
+        if (PlayerPrefs.HasKey("Scene") && SceneManager.GetActiveScene().buildIndex != 0)
+        {
+            PlayerPrefs.SetInt("Scene", SceneManager.GetActiveScene().buildIndex);
+            PlayerPrefs.Save();
+        }
     }
 
     public void ChangeScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(PlayerPrefs.GetInt("Scene"));
+    }
+
+    public void NewGame()
+    {
+        PlayerPrefs.SetInt("Scene", 1);
+        PlayerPrefs.Save();
+        ChangeScene();
+    }
+
+    public void ContinueGame()
+    {
+        if (PlayerPrefs.HasKey("Scene"))
+        {
+            ChangeScene();        
+        }
     }
     
-
 }
