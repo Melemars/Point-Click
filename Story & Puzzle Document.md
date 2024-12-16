@@ -107,8 +107,9 @@ H entra nella grotta, che scompare poco dopo.
 ### Grotta  
 Mimi si addentra il più possibile nella grotta, ma si ritrova in un vicolo cieco, bloccata da quello che sembra un enorme portone di pietra. Su un muro accanto alla porta sono agganciate 54 chiavi, disposte a griglia (9x6). Di queste 3 chiavi sono illuminate e brillano di un colore diverso. Sulla porta si trova una targa con un codice strano.  
   
-[img](keywall)  
-[img](code)  
+[Key Puzzle – Wall](/GDDimgs/key_puzzle.png)  
+[Key Puzzle – Code](/GDDimgs/key_puzzle_code.png)  
+Per gli artist: Il codice graficamente può essere modificato se volete, finché la logica rimane la stessa.  
   
 **Obiettivo:** Oltrepassare il portone  
 **Soluzione:** Il portone è chiuso a chiave. La chiave per aprirlo si trova tra quelle appese al muro. Per capire qual'è quella giusta si deve decifrare il codice:  
@@ -118,19 +119,42 @@ Mimi si addentra il più possibile nella grotta, ma si ritrova in un vicolo ciec
 - per capire i numeri bisogna consultare il libro alla pagina con gli stessi simboli (alcuni sono cancellati per non renderlo troppo ovvio)  
 - bisogna contare le chiavi nelle varie direzioni e trovare il percorso che porta alla chiave corretta
   
-[img](solution)  
+[Key Puzzle – Solution](/GDDimgs/key_puzzle_solution.png)  
+[Key Puzzle – Book Page](/GDDimgs/key_puzzle_book.png)  
   
 #### Interazioni
 - **Libro**  
+  
 - **Portone**  
     a. "Che porta enorme…"  
     b. "È chiuso a chiave"  
     c. "C'è una strana targa sopra al portone"  
     d. "Sicuramente la chiave giusta è una di quelle appese al muro… ma quale?"  
     e. _[Dopo aver raccolto la **chiave**]_  
+        "Si apre! Lo sapevo!"  
         **— FINE PUZZLE ―**  
 - **Targa**  
     Si vede la targa da vicino  
     a. "Chissà cosa significano quei strani simboli…"  
     b. "Forse il diario del nonno mi può aiutare"  
-- 
+- **Muro**  
+    Si vede il muro con le chiavi in primo piano. Tutte le chiavi sono interagibili.  
+    a. "Wow, così tante chiavi…"  
+    b. "Una di queste chiavi deve essere quella corretta per aprire il portone"  
+    c. "Credo che la chiave giusta sia indicata dal codice sul portone"  
+      
+- **Chiave sbagliata**  
+    a. "Non ha senso provarle tutte a caso… ci deve essere un modo per trovare la chiave giusta"  
+
+- **Chiave colorata**  
+    a. "Questa chiave brilla, chissà perchè…"  
+  
+- **Chiave corretta**  
+    a. "Me la sento, questa è la chiave giusta!"  
+    _[**Chiave** aggiunta all'inventario]_  
+      
+#### Fine Puzzle  
+Mimi apre il portone e entra. Poco dopo arriva Hitler.  
+  
+### Bosco  
+Oltrepassato il portone Mimi si ritrova in un bosco. Accorgendosi di essere ancora inseguita inizia a correre, 
