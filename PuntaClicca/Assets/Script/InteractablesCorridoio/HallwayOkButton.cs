@@ -6,10 +6,10 @@ public class HallwayOkButton : MonoBehaviour
     [SerializeField] private GameObject MinigameCanvas;
     [SerializeField] private ItemScriptableObject doorEvent;
     [SerializeField] private PlayableDirector director;
-    
+    private bool orderMatters = false;
     public void OkButton()
     {
-        if (Minigame.Instance.CheckMinigamePuzzle())
+        if (Minigame.Instance.CheckMinigamePuzzle(orderMatters))
         {
             //do things and remember to setActive(false) using timeline on Interactable which active Minigame
             //StoryManager.Instance.StartStory(director);

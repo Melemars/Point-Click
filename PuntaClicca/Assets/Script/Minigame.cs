@@ -15,7 +15,7 @@ public class Minigame : MonoBehaviour
         Instance = this;
     }
     
-    public bool CheckMinigamePuzzle()
+    public bool CheckMinigamePuzzle(bool orderMatters)
     {
         if (tryItems.Count() == 0 || tryItems.Count() != correctItems.Count())
         {
@@ -24,15 +24,30 @@ public class Minigame : MonoBehaviour
             ClearTryList();
             return false;
         }
-        
-        for (int i = 0; i < this.tryItems.Count; i++)
+
+        if (!orderMatters)
         {
-            //Debug.Log(this.tryItems[i].name);
-            if (correctItems.Contains(this.tryItems[i]) == false)
+            for (int i = 0; i < this.tryItems.Count; i++)
             {
-                OnMinigameEnd.Invoke();
-                ClearTryList();
-                return false;
+                //Debug.Log(this.tryItems[i].name);
+                if (correctItems.Contains(this.tryItems[i]) == false)
+                {
+                    OnMinigameEnd.Invoke();
+                    ClearTryList();
+                    return false;
+                }
+            }
+        }
+        else if (orderMatters)
+        {
+            for (int i = 0; i < this.tryItems.Count; i++)
+            {
+                if (correctItems[i] != this.tryItems[i])
+                {
+                    OnMinigameEnd.Invoke();
+                    ClearTryList();
+                    return false; 
+                }
             }
         }
         //Debug.Log(this.tryItems.Count);
