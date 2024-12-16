@@ -107,8 +107,8 @@ H entra nella grotta, che scompare poco dopo.
 ### Grotta  
 Mimi si addentra il più possibile nella grotta, ma si ritrova in un vicolo cieco, bloccata da quello che sembra un enorme portone di pietra. Su un muro accanto alla porta sono agganciate 54 chiavi, disposte a griglia (9x6). Di queste 3 chiavi sono illuminate e brillano di un colore diverso. Sulla porta si trova una targa con un codice strano.  
   
-[Key Puzzle – Wall](/GDDimgs/key_puzzle.png)  
-[Key Puzzle – Code](/GDDimgs/key_puzzle_code.png)  
+![Key Puzzle – Wall](/GDDimgs/key_puzzle.png)  
+![Key Puzzle – Code](/GDDimgs/key_puzzle_code.png)  
 Per gli artist: Il codice graficamente può essere modificato se volete, finché la logica rimane la stessa.  
   
 **Obiettivo:** Oltrepassare il portone  
@@ -119,8 +119,8 @@ Per gli artist: Il codice graficamente può essere modificato se volete, finché
 - per capire i numeri bisogna consultare il libro alla pagina con gli stessi simboli (alcuni sono cancellati per non renderlo troppo ovvio)  
 - bisogna contare le chiavi nelle varie direzioni e trovare il percorso che porta alla chiave corretta
   
-[Key Puzzle – Solution](/GDDimgs/key_puzzle_solution.png)  
-[Key Puzzle – Book Page](/GDDimgs/key_puzzle_book.png)  
+![Key Puzzle – Solution](/GDDimgs/key_puzzle_solution.png)  
+![Key Puzzle – Book Page](/GDDimgs/key_puzzle_book.png)  
   
 #### Interazioni
 - **Libro**  
