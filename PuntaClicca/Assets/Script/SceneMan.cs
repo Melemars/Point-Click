@@ -14,23 +14,24 @@ public class SceneMan : MonoBehaviour
         }
     }
 
-    public void ChangeScene()
+    public void NextLevel()
     {
-        SceneManager.LoadScene(PlayerPrefs.GetInt("Scene"));
+        SceneManager.LoadScene(PlayerPrefs.GetInt("Scene")+1);
     }
 
     public void NewGame()
     {
         PlayerPrefs.SetInt("Scene", 1);
         PlayerPrefs.Save();
-        ChangeScene();
+        SceneManager.LoadScene(PlayerPrefs.GetInt("Scene"));
+        
     }
 
     public void ContinueGame()
     {
         if (PlayerPrefs.HasKey("Scene"))
         {
-            ChangeScene();        
+            SceneManager.LoadScene(PlayerPrefs.GetInt("Scene"));
         }
     }
     
