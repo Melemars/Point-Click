@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class InteractableAtticDoor : MonoBehaviour, IInteractable
+public class InteractableMinigame : MonoBehaviour, IInteractable
 {
     [SerializeField] private GameObject MinigameCanvas;
     
