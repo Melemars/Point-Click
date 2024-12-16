@@ -21,7 +21,7 @@ public class HallwayOkButton : MonoBehaviour
         {
             GameHandler.OnCanvasDisappear?.Invoke();
             MinigameCanvas.SetActive(false);
-            TextCanvas.OnShowInteractionText(doorEvent, 1);
+            TextCanvas.OnShowInteractionText(doorEvent, 0);
         }
     }
 }

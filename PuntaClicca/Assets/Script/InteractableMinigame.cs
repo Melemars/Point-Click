@@ -4,7 +4,7 @@ public class InteractableMinigame : MonoBehaviour, IInteractable
 {
     [SerializeField] private GameObject MinigameCanvas;
     [SerializeField] private ItemScriptableObject itemEvent;
-    private int numInteractionPhrase = 0;
+    private int numInteractionPhrase = 1;
     
     public void OnClickAction()
     {
@@ -14,8 +14,8 @@ public class InteractableMinigame : MonoBehaviour, IInteractable
             GameHandler.OnCanvasAppear?.Invoke();
         } 
         else
-        {
-            TextCanvas.OnShowInteractionText(itemEvent, numInteractionPhrase);
+        { 
+            TextCanvas.OnShowInteractionText(itemEvent, numInteractionPhrase); 
             numInteractionPhrase++;
         }
     }

@@ -15,8 +15,8 @@ MonoBehaviour:
   Id: 3
   RequiredItemsId: 0100000002000000
   InteractionPhrases:
-  - "La soffitta \xE8 chiusa a chiave"
   - "Non posso aprire la porta cos\xEC\u2026"
+  - "La soffitta \xE8 chiusa a chiave"
   yesInteractionPhrase: Ho aperto la porta!
   InventoryImgTag: 
   characterSprite: {fileID: 0}
