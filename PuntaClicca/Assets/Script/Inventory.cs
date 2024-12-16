@@ -16,8 +16,8 @@ public class Inventory : MonoBehaviour
         Instance = this;
     }
 
-    public bool CheckInventory(ItemScriptableObject item){
-        if(item.RequiredItemsId.Contains(-1)){
+    public bool CheckInventory(ItemScriptableObject item, bool AddItemToInventory){
+        if(item.RequiredItemsId.Contains(-1) && AddItemToInventory){
             Debug.Log("Oggetto pick up");
             AddItemInInventory(item);
             return true; // simple pick up object
@@ -31,11 +31,15 @@ public class Inventory : MonoBehaviour
                         numFoundObjects++;
                     }
                 }
-                if(numFoundObjects == item.RequiredItemsId.Count){ //if all inventory items are found
+                if(numFoundObjects == item.RequiredItemsId.Count && AddItemToInventory){ //if all inventory items are found
                     AddItemInInventory(item);
                     RemoveItemInInventoryById(item.RequiredItemsId);
                     return true;
-                }               
+                }
+                else if (numFoundObjects == item.RequiredItemsId.Count && !AddItemToInventory)
+                {
+                    return true;
+                }
                 else {
                     return false;
                 } 

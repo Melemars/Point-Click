@@ -2908,6 +2908,8 @@ PlayableDirector:
     value: {fileID: 1406238809}
   - key: {fileID: 74870852947430949, guid: 28c5e1b6518f606418d7f58dec886118, type: 2}
     value: {fileID: 1072326010}
+  - key: {fileID: -373948329583689537, guid: 28c5e1b6518f606418d7f58dec886118, type: 2}
+    value: {fileID: 1259414110}
   m_ExposedReferences:
     m_References:
     - 3a7b34e6afeef254d8cd89bee96a4ce6: {fileID: 1072326011}
@@ -3588,7 +3590,7 @@ Transform:
   m_GameObject: {fileID: 1259414110}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 13.76, y: 1.37, z: -1.49}
   m_LocalScale: {x: 0.41664, y: 1.4353874, z: 0.41664}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4269,7 +4271,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MinigameCanvas: {fileID: 1199033075}
   itemEvent: {fileID: 11400000, guid: 983b66a6e02db3f49bd22cff7ec30f75, type: 2}
-  numInteractionOnClick: 1
 --- !u!1 &1593080957
 GameObject:
   m_ObjectHideFlags: 0

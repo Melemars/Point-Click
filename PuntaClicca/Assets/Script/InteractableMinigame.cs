@@ -4,11 +4,12 @@ public class InteractableMinigame : MonoBehaviour, IInteractable
 {
     [SerializeField] private GameObject MinigameCanvas;
     [SerializeField] private ItemScriptableObject itemEvent;
+    private bool AddItem = false;
     private int numInteractionPhrase = 1;
     
     public void OnClickAction()
     {
-        if(Inventory.Instance.CheckInventory(itemEvent))
+        if(Inventory.Instance.CheckInventory(itemEvent, AddItem))
         {
             MinigameCanvas.SetActive(true);
             GameHandler.OnCanvasAppear?.Invoke();

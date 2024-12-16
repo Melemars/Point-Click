@@ -6,13 +6,14 @@ public class InteractablePickUse : MonoBehaviour, IInteractable
     [SerializeField]
     private ItemScriptableObject item;
     private int numInteractionPhrase = 0;
+    private bool AddItem = true;
     
     [SerializeField]
     private PlayableDirector director;
     
     public void OnClickAction()
     {
-        if (Inventory.Instance.CheckInventory(item))
+        if (Inventory.Instance.CheckInventory(item, AddItem))
         {
             //when you click the object, active a timeline or, if is not necessary, simply disable the object
             if(director != null)
