@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f819cce3ea0ba4d964e6b812a4f207, type: 3}
-  m_Name: AtticDoorEvent
+  m_Name: Staple
   m_EditorClassIdentifier: 
-  Id: 0
-  RequiredItemsId: 
-  InteractionPhrases:
-  - Mi serve qualcosa per aprire la porta
-  yesInteractionPhrase: 
-  InventoryImgTag: 
+  Id: 1
+  RequiredItemsId: ffffffff
+  InteractionPhrases: []
+  yesInteractionPhrase: "Il gancio si \xE8 staccato dal muro ed \xE8 caduto\u2026
+    dopo lo riparer\xF2. Ma dov\u2019\xE8 finita la chiave?"
+  InventoryImgTag: InventorySlot3
   characterSprite: {fileID: 0}

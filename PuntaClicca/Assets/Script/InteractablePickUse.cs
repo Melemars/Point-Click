@@ -14,8 +14,12 @@ public class InteractablePickUse : MonoBehaviour, IInteractable
     {
         if (Inventory.Instance.CheckInventory(item))
         {
+            //when you click the object, active a timeline or, if is not necessary, simply disable the object
+            if(director != null)
+                StoryManager.Instance.StartStory(director);
+            else 
+                this.gameObject.SetActive(false);
             TextCanvas.OnShowYesText(item);
-            StoryManager.Instance.StartStory(director);
         }
         else{
             TextCanvas.OnShowInteractionText(item, numInteractionPhrase);

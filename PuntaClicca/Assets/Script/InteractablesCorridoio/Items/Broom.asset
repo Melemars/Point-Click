@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f819cce3ea0ba4d964e6b812a4f207, type: 3}
-  m_Name: Plate
+  m_Name: Broom
   m_EditorClassIdentifier: 
   Id: 0
-  RequiredItemsId: 
-  InteractionPhrases:
-  - it's a plate
-  - wow
-  yesInteractionPhrase: 
-  InventoryImgTag: 
-  characterSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  RequiredItemsId: ffffffff
+  InteractionPhrases: []
+  yesInteractionPhrase: Scopa raccolta
+  InventoryImgTag: InventorySlot1
+  characterSprite: {fileID: 0}

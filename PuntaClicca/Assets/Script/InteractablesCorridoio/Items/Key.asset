@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 2
   RequiredItemsId: 00000000
-  InteractionPhrases: []
-  yesInteractionPhrase: 
+  InteractionPhrases:
+  - Ci sono tutti i giocattoli di Ceci. E la chiave!
+  - "Non riesco a afferrare la chiave, lo spazio \xE8 troppo stretto"
+  - "Mi servirebbe qualcosa che mi aiuti ad afferrare la chiave\u2026"
+  yesInteractionPhrase: chiave raccolta
   InventoryImgTag: InventorySlot2
   characterSprite: {fileID: 0}
