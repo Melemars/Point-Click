@@ -123,8 +123,6 @@ Per gli artist: Il codice graficamente può essere modificato se volete, finché
 ![Key Puzzle – Book Page](/GDDimgs/key_puzzle_book.png)  
   
 #### Interazioni
-- **Libro**  
-  
 - **Portone**  
     a. "Che porta enorme…"  
     b. "È chiuso a chiave"  
@@ -141,14 +139,11 @@ Per gli artist: Il codice graficamente può essere modificato se volete, finché
     Si vede il muro con le chiavi in primo piano. Tutte le chiavi sono interagibili.  
     a. "Wow, così tante chiavi…"  
     b. "Una di queste chiavi deve essere quella corretta per aprire il portone"  
-    c. "Credo che la chiave giusta sia indicata dal codice sul portone"  
-      
+    c. "Credo che la chiave giusta sia indicata dal codice sul portone"      
 - **Chiave sbagliata**  
     a. "Non ha senso provarle tutte a caso… ci deve essere un modo per trovare la chiave giusta"  
-
 - **Chiave colorata**  
     a. "Questa chiave brilla, chissà perchè…"  
-  
 - **Chiave corretta**  
     a. "Me la sento, questa è la chiave giusta!"  
     _[**Chiave** aggiunta all'inventario]_  
@@ -156,5 +151,74 @@ Per gli artist: Il codice graficamente può essere modificato se volete, finché
 #### Fine Puzzle  
 Mimi apre il portone e entra. Poco dopo arriva Hitler.  
   
-### Bosco  
-Oltrepassato il portone Mimi si ritrova in un bosco. Accorgendosi di essere ancora inseguita inizia a correre, 
+### Bosco e Campo dei Cronosurfisti  
+Oltrepassato il portone Mimi si ritrova in un bosco. Accorgendosi di essere ancora inseguita inizia a correre, finché vede una luce. Mentre ci corre accontro inciampa su una radice e cade, facendo cadere anche il libro. Mentre è per terra M vede due scarpe, poi una mano che si abbbassa e che raccoglie il libro. Alzando lo sguardo vede Gnomo che le porge la mano e la aiuta ad alzarsi.   
+  
+La cutscene finisce, il livello inizia subito con il dialogo con lo Gnomo:  
+Gnomo: _parla in un linguaggio strano_  
+Mimi: "…Che cosa?"  
+G: "Ah… Stai bene?"  
+M: "Sì, credo, grazie. Dove mi trovo? Mi puoi ridare il mio libro?"  
+G: "Il tuo libro? Questo diario non è tuo, no?"  
+M: "Come? Ma te che ne sai? Certo che è mio! Beh, di mio nonno… insomma, ridammelo!"  
+G: "Ok, calmati, tieni."  
+G: "Sai, conosco la persona che ha scritto questo diario. Quindi è tuo nonno, eh… È passato così tanto tempo?"  
+M: "Tu… conosci…  
+    Allora mi sai dire cosa ha di speciale questo diario! Hi— La persona che mi stava inseguendo sembrava volerlo ottenere a qualsiasi costo."  
+G: "Da dove inizio… Vedi, anni fa finii per caso nell'Mondo Reale _[suona male, vorrei cambiarlo]_, il tuo mondo, senza essere capace di tornare indietro. Lì incontrai il tuo nonno e mi aiutò."  
+G: "Poi, quando trovai un modo per tornare qui, lui insisté per venire con me, affascinato dalle storie del Mondo Fantastico _[idem]_. Gli insegnai tutto del mio mondo, dove siamo adesso, e lui lo appuntò su questo diario e poi tornò a casa."  
+M: "Wow… E io non gli ho mai creduto…"  
+G: "Per tornare alla tua domanda, le pagine del diario del tuo nonno sono fatte con il legno di un albero-nave, per questo è intriso di magia. Probabilmente la persona che gli dava la caccia stava cercando un modo per arrivare nel Mondo Fanstastico."  
+M: "Perché vorrebbe— sicuramente non ha buone intenzioni…  
+    Oh no! Io credo che voglia far distruggere il Mondo Fantastico dai suoi soldati! E io mi son fatta seguire e l'ho portato fin qui… Che stupida!"  
+G: "Hm, non è una bella notizia… Niente panico, ecco il piano: il libro permette di aprire un passaggio verso questo mondo ma non viceversa; in poche parole se scappi nel Mondo Reale con il libro e lasci qui il tuo inseguitore rimarrà bloccato nel Mondo Fantastico, senza modo di radunare la sua armata e distruggere il mondo."  
+M: "E… Come torno nel mio mondo?"
+G: "Il modo più semplice è con un albero-nave e viaggiare verso la tua dimensione. Ma quelli appartengono ai cronosurfisti e non sono molto disponibili con gli estranei, quindi dovrai trovare un modo di procurartene uno."  
+M: "Non credo di seguirti. Chi sono questi cronourfisti? E l'albero-nave, non è quella cosa di cui è fatto il diario del nonno?"  
+G: "Un cronosurfista è una persona che viaggia nel tempo e tra le dimensioni. E gli alberi-nave servono proprio a questo scopo. Quando arrivano in fin di vita viene usato il loro legno per creare degli artefatti magici, ad esempio il diario di tuo nonno."  
+G: "Più avanti c'è una radura, mi pare di aver visto un vecchio albero-nave, prova a dare un'occhiata. Buona fortuna."  
+
+**Obiettivo:** Procurarsi un albero-nave  
+**Soluzione:** Bisogna far crescere un albero-nave da un suo germoglio. Per ottenere il germoglio bisogna ingannare il cronosurfista che c'è nel campo che anche la protagonista sia una cronosurfista (Oppure che anche lei ha le abilità per diventarlo?). Per farlo deve risolvere l'indovinello del cronosurfista. Una volta risolto egli sarà convinto e darà il germoglio a M. Per farlo crescere in un albero-nave si deve capire dove piantarlo e quali oggetti usare per farlo crescere. Oltre al germoglio verrà dato a M anche una mappa, che gli servirà per impostare le coordinate per tornare alla propria dimensione.  
+  
+#### L'Indovinello dei Cronosurfisti  
+L'indovinello e la risposta saranno nella lingua del Mondo Fantastico. L'indovinello è inciso su una roccia, con delle fessure sotto per la risposta. Per rispondere M dovrà raccogliere delle pietre con delle lettere sopra, capire cosa significano (pensavo pittogrammi piuttosto che alfabeto ma idk) e inserirle nelle fessure nell'ordine giusto.  
+
+#### Come far Crescere l'Albero-Nave  
+Ci saranno degli oggetti da raccogliere sia nel campo che nel bosco, il germoglio andrà piantanto del bosco e interagendoci si dovranno scegliere gli oggetti giusti da usare per farlo crescere.  
+
+#### Interazioni – Bosco  
+…  
+  
+#### Interazioni – Campo dei Cronosurfisti    
+…  
+  
+#### Fine Puzzle A  
+Il germoglio inizia a cresere, diventando un albero sempre più grande, e si trasforma in un albero nave.  
+  
+Si torna al livello.  
+
+#### Interazioni – Bosco  
+- **Albero-nave**
+    a. "Meglio salutare prima di andarmene. Dopotutto, mi hanno aiutata…"  
+    b. _[dopo aver interagito con lo **Gnomo** e il **Cronosurfista**]_  
+        **— FINE PUZZLE B―**  
+- **Gnomo**
+    a. "Non ne avevo mai visto uno crescere…"  
+    b. "Buon viaggio!"  
+  
+#### Interazioni – Campo dei Cronosurfisti 
+- **Cronosurfista**  
+    a. "Chi l'avrebbe detto… Non pensavo ce l'avresti fatta veramente a farlo crescere…"  
+        "Eccoti un altro aiuto. Sicuramente ti tornerà utile…"  
+        _[**Mappa** aggiunta all'inventario]_  
+    b. "Buona fortuna nel tuo viaggio, cronosurfista."  
+  
+#### Fine Puzzle B  
+Mimi sale sulla nave.  
+  
+### Nave  
+
+
+###### draft (ignore)
+per visualizzare la mappa deve posarla su un tavolo, capire quali sono le coordinate del mondo reale e impostarle su un quadrante della nave. sullo stesso quadrante deve impostare la data. (se tornasse prima che il nonno venga ucciso?). Poi deve collegare i cavi/radici nel modo corretto per far partire la nave
