@@ -179,12 +179,13 @@ G: "Un cronosurfista è una persona che viaggia nel tempo e tra le dimensioni. E
 G: "Più avanti c'è una radura, mi pare di aver visto un vecchio albero-nave, prova a dare un'occhiata. Buona fortuna."  
 
 **Obiettivo:** Procurarsi un albero-nave  
-**Soluzione:** Bisogna far crescere un albero-nave da un suo germoglio. Per ottenere il germoglio bisogna ingannare il cronosurfista che c'è nel campo che anche la protagonista sia una cronosurfista (Oppure che anche lei ha le abilità per diventarlo?). Per farlo deve risolvere l'indovinello del cronosurfista. Una volta risolto egli sarà convinto e darà il germoglio a M. Per farlo crescere in un albero-nave si deve capire dove piantarlo e quali oggetti usare per farlo crescere. Oltre al germoglio verrà dato a M anche una mappa, che gli servirà per impostare le coordinate per tornare alla propria dimensione.  
+**Soluzione:** Bisogna far crescere un albero-nave da un suo germoglio. Per ottenere il germoglio bisogna convincere il cronosurfista e dimostrargli che anche la protagonista ha le capacità di diventarne uno. Per farlo deve risolvere l'indovinello del cronosurfista. Una volta risolto egli sarà convinto e darà il germoglio a M. Per farlo crescere in un albero-nave si deve capire dove piantarlo e quali oggetti usare per farlo crescere. Una volta fatto crescere l'albero M non potrà salirci finché non saluta i due NPC; interagendoci il cronosurfista darà a M una mappa, che gli servirà per impostare le coordinate per tornare alla propria dimensione.  
   
-#### L'Indovinello dei Cronosurfisti  
-L'indovinello e la risposta saranno nella lingua del Mondo Fantastico. L'indovinello è inciso su una roccia, con delle fessure sotto per la risposta. Per rispondere M dovrà raccogliere delle pietre con delle lettere sopra, capire cosa significano (pensavo pittogrammi piuttosto che alfabeto ma idk) e inserirle nelle fessure nell'ordine giusto.  
+#### L'Indovinello dei Cronosurfisti (draft)  
+L'indovinello e la risposta saranno nella lingua del Mondo Fantastico. L'indovinello è inciso su una roccia, con delle fessure sotto per la risposta. Per rispondere M dovrà raccogliere delle pietre con delle lettere sopra, capire cosa significano (pensavo ideogrammi piuttosto che alfabeto ma idk) e inserirle nelle fessure nell'ordine giusto.
+Il significato dei vari ideogrammi si trova sparso per il libro (con magari un'immagine e accanto l'ideogramma)  
 
-#### Come far Crescere l'Albero-Nave  
+#### Come far Crescere l'Albero-Nave (draft)  
 Ci saranno degli oggetti da raccogliere sia nel campo che nel bosco, il germoglio andrà piantanto del bosco e interagendoci si dovranno scegliere gli oggetti giusti da usare per farlo crescere.  
 
 #### Interazioni – Bosco  
