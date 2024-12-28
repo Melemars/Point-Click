@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections.Generic;
-using Microsoft.Unity.VisualStudio.Editor;
 
 [CreateAssetMenu(fileName = "NewItem", menuName = "ScriptableObjects/Items")]
 public class ItemScriptableObject : ScriptableObject
@@ -11,6 +10,4 @@ public class ItemScriptableObject : ScriptableObject
     public string yesInteractionPhrase; //phrase when player can pick up or use an object 
     public string InventoryImgTag;
     public Sprite characterSprite; //put null for main character portrait to appear
-
-
 }
