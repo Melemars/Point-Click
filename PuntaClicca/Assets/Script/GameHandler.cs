@@ -6,6 +6,7 @@ public class GameHandler : MonoBehaviour
 {
     [SerializeField] private GameObject interactableManager;
     [SerializeField] private Button bookButton;
+    [SerializeField] private GameObject cursorManager;
     
     public static Action OnCanvasAppear;
     public static Action OnCanvasDisappear;
@@ -25,7 +26,7 @@ public class GameHandler : MonoBehaviour
     private void StopInteractableManager()
     {
         interactableManager.SetActive(false);
-
+        cursorManager.GetComponent<CursorController>().DefaultCursorTexture();
         if(bookButton != null)
         {
             bookButton.enabled = false;

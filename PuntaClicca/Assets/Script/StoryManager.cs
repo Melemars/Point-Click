@@ -11,6 +11,11 @@ public class StoryManager : MonoBehaviour
         Instance = this;
     }
 
+    void Start() {
+        Debug.Log("Ciao");
+        this.director.Play();  
+    }
+
     public void StartStory(PlayableDirector timeline)
     {
         this.director = timeline;

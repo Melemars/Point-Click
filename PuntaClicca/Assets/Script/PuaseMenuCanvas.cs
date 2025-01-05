@@ -38,6 +38,7 @@ public class PuaseMenuCanvas : MonoBehaviour
 
     public void ReturnStartScene()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 

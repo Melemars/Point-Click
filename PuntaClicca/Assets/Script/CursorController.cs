@@ -75,7 +75,7 @@ public class CursorController : MonoBehaviour
     }
 
     //change cursor texture when not interactive
-    private void DefaultCursorTexture(){
+    public void DefaultCursorTexture(){
         cursorIsInteractive = false;
         Cursor.SetCursor(default, default, default);
     }

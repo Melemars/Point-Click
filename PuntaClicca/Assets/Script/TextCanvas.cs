@@ -20,11 +20,17 @@ public class TextCanvas : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI charText;
 
-    private void Awake(){
+    private void OnEnable(){
         HideText();
         OnShowInteractionText += CheckNumInteractionPhrase;
         OnHideText += HideText;
         OnShowYesText += YesText;
+    }
+
+    private void OnDisable() {
+        OnShowInteractionText -= CheckNumInteractionPhrase;
+        OnHideText -= HideText;
+        OnShowYesText -= YesText;
     }
 
     private void CheckNumInteractionPhrase(ItemScriptableObject item, int numInteraction){
@@ -44,12 +50,17 @@ public class TextCanvas : MonoBehaviour
     }
 
     private void ShowText(string newText){
-        Bg_text.SetActive(true);
-        charText.text = newText;
+        Debug.Log(Bg_text);
+        if(Bg_text != null){
+            Bg_text.SetActive(true);
+            charText.text = newText; 
+        }
     }
 
     private void HideText(){
-        Bg_text.SetActive(false);
+        Debug.Log(Bg_text);
+        if(Bg_text != null)
+            Bg_text.SetActive(false);
     }
 
     private void ChangeCharacterPortrait(ItemScriptableObject item) {
