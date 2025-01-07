@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class EscButton : MonoBehaviour
 {
     [SerializeField] private GameObject Canvas;
-    
+    [SerializeField] private PlayableDirector director;
+
     public void EscMinigame()
     {
         Minigame.OnMinigameEnd.Invoke();
@@ -15,5 +17,13 @@ public class EscButton : MonoBehaviour
     {
         Canvas.SetActive(false);
         GameHandler.OnCanvasDisappear?.Invoke();
+    }
+
+    public void EscWithTimeline(){
+        if (director != null){
+            StoryManager.Instance.StartStory(director);
+            director = null;
+        }
+        EscCanvas();
     }
 }

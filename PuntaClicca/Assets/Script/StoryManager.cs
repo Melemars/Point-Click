@@ -18,8 +18,10 @@ public class StoryManager : MonoBehaviour
 
     public void StartStory(PlayableDirector timeline)
     {
-        this.director = timeline;
-        this.director.Play();
+        if (timeline != null){
+            this.director = timeline;
+            this.director.Play();
+        }
     }
     
 }
