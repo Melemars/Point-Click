@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f819cce3ea0ba4d964e6b812a4f207, type: 3}
-  m_Name: AtticDoorEvent
+  m_Name: Granpa
   m_EditorClassIdentifier: 
-  Id: 3
-  RequiredItemsId: 0100000002000000
+  Id: 5
+  RequiredItemsId: 01000000
   InteractionPhrases:
-  - Non mi serve il gancio per aprire la porta...
-  - "La soffitta \xE8 chiusa a chiave"
-  yesInteractionPhrase: Ho aperto la porta!
+  - "La chiave della soffitta \xE9 sul gancio vicino alla porta"
+  yesInteractionPhrase: "Il gancio si \xE8 staccato? Chiss\xE0 dov'\xE8 finita la
+    chiave\u2026"
   InventoryImgTag: 
   characterSprite: {fileID: 0}

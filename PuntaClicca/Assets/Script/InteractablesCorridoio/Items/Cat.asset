@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f819cce3ea0ba4d964e6b812a4f207, type: 3}
-  m_Name: AtticDoorEvent
+  m_Name: Cat
   m_EditorClassIdentifier: 
-  Id: 3
-  RequiredItemsId: 0100000002000000
+  Id: 4
+  RequiredItemsId: 
   InteractionPhrases:
-  - Non mi serve il gancio per aprire la porta...
-  - "La soffitta \xE8 chiusa a chiave"
-  yesInteractionPhrase: Ho aperto la porta!
+  - "Ceci sta di nuovo giocando con un mio giocattolo\u2026 ogni volta che ne vede
+    uno per terra ci gioca e poi lo nasconde dietro al mobile"
+  yesInteractionPhrase: 
   InventoryImgTag: 
   characterSprite: {fileID: 0}

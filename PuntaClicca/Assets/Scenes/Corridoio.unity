@@ -968,6 +968,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: df72d962cfe9a6646a997c6d95fe32e7, type: 2}
+  AddItem: 1
+  isAMinigameObject: 0
   director: {fileID: 221307937}
 --- !u!1 &246977032
 GameObject:
@@ -2635,6 +2637,7 @@ MonoBehaviour:
   MinigameCanvas: {fileID: 1199033075}
   doorEvent: {fileID: 11400000, guid: 983b66a6e02db3f49bd22cff7ec30f75, type: 2}
   director: {fileID: 0}
+  ObjectToRemove: 02000000
 --- !u!114 &736964595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3642,6 +3645,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: a61076cb803aba14e9ba5c0368b2ee9d, type: 2}
+  AddItem: 1
+  isAMinigameObject: 0
   director: {fileID: 1080529773}
 --- !u!1 &1140964150
 GameObject:
@@ -5089,6 +5094,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 3ab471bf0081bad4590c2757bf99bb28, type: 2}
+  AddItem: 1
+  isAMinigameObject: 0
   director: {fileID: 1259414117}
 --- !u!1 &1281997582
 GameObject:

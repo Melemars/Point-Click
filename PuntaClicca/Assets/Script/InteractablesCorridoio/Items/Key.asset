@@ -18,6 +18,6 @@ MonoBehaviour:
   - Ci sono tutti i giocattoli di Ceci. E la chiave!
   - "Non riesco a afferrare la chiave, lo spazio \xE8 troppo stretto"
   - "Mi servirebbe qualcosa che mi aiuti ad afferrare la chiave\u2026"
-  yesInteractionPhrase: chiave raccolta
+  yesInteractionPhrase: Ce l'ho fatta
   InventoryImgTag: InventorySlot2
   characterSprite: {fileID: 0}
