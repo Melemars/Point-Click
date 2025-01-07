@@ -7,6 +7,7 @@ public class TextCanvas : MonoBehaviour
     public static Action <ItemScriptableObject, int> OnShowInteractionText;
     public static Action OnHideText;
     public static Action <ItemScriptableObject> OnShowYesText;
+    public static Action <ItemScriptableObject> OnShowErrorMinigameText;
 
     [SerializeField]
     private GameObject Bg_text;
@@ -25,12 +26,14 @@ public class TextCanvas : MonoBehaviour
         OnShowInteractionText += CheckNumInteractionPhrase;
         OnHideText += HideText;
         OnShowYesText += YesText;
+        OnShowErrorMinigameText += ErrorMinigameText;
     }
 
     private void OnDisable() {
         OnShowInteractionText -= CheckNumInteractionPhrase;
         OnHideText -= HideText;
         OnShowYesText -= YesText;
+        OnShowErrorMinigameText -= ErrorMinigameText;
     }
 
     private void CheckNumInteractionPhrase(ItemScriptableObject item, int numInteraction){
@@ -61,6 +64,11 @@ public class TextCanvas : MonoBehaviour
         Debug.Log(Bg_text);
         if(Bg_text != null)
             Bg_text.SetActive(false);
+    }
+
+    private void ErrorMinigameText(ItemScriptableObject item){
+        ShowText(item.errorMinigamePhrase);
+        ChangeCharacterPortrait(item);
     }
 
     private void ChangeCharacterPortrait(ItemScriptableObject item) {

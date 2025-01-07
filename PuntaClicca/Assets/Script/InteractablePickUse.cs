@@ -9,16 +9,8 @@ public class InteractablePickUse : MonoBehaviour, IInteractable
     [SerializeField]
     private bool AddItem;
     [SerializeField]
-    private bool isAMinigameObject; //true only if is a minigame object and phraseObjectsMatters == true in MinigameOkButton
-    [SerializeField]
     private PlayableDirector director;
     
-    private void Start() {
-        if (isAMinigameObject){
-            numInteractionPhrase = 1;
-        }
-    }
-
     public void OnClickAction()
     {
         if (Inventory.Instance.CheckInventory(item, AddItem))

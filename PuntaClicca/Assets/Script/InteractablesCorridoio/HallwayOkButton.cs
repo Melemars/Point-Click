@@ -7,8 +7,7 @@ public class HallwayOkButton : MonoBehaviour
     [SerializeField] private GameObject MinigameCanvas;
     [SerializeField] private ItemScriptableObject doorEvent;
     [SerializeField] private PlayableDirector director;
-    [SerializeField]
-    private List<int> ObjectToRemove;
+    [SerializeField] private List<int> ObjectToRemove;
     
     private bool orderMatters = false;
     private bool phraseObjectsMatters = false;
@@ -27,12 +26,11 @@ public class HallwayOkButton : MonoBehaviour
         }
         else
         {
-            if (!phraseObjectsMatters){
-                GameHandler.OnCanvasDisappear?.Invoke();
-                MinigameCanvas.SetActive(false);
-                TextCanvas.OnShowInteractionText(doorEvent, 0);
+            if (!phraseObjectsMatters){    
+                TextCanvas.OnShowErrorMinigameText(doorEvent);
             }
-            
+            GameHandler.OnCanvasDisappear?.Invoke();
+            MinigameCanvas.SetActive(false);
         }
     }
 }

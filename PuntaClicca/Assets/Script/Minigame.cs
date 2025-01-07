@@ -68,6 +68,6 @@ public class Minigame : MonoBehaviour
 
     public void CheckObjectPhrase(bool PhraseObjectsMatters, int index){
         if (PhraseObjectsMatters)
-            TextCanvas.OnShowInteractionText(tryItems[index], 0);
+            TextCanvas.OnShowErrorMinigameText(tryItems[index]);
     }
 }
