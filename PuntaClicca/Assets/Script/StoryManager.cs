@@ -12,7 +12,6 @@ public class StoryManager : MonoBehaviour
     }
 
     void Start() {
-        Debug.Log("Ciao");
         this.director.Play();  
     }
 

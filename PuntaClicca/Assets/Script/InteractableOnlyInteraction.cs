@@ -7,6 +7,7 @@ public class InteractableOnlyInteraction : MonoBehaviour, IInteractable
 
     public void OnClickAction()
     {
+        CursorController.MakeCursorDefault();
         StoryManager.Instance.StartStory(director);
     }
 }

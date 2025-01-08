@@ -6103,7 +6103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactablesManager: {fileID: 176601583}
-  interactiveCursorTexture: {fileID: 2800000, guid: 2d7378d9b75b21a428f1fa2beb7cccda, type: 3}
+  interactiveCursorTexture: {fileID: 2800000, guid: 4e166b41a3eb07f4294c03149ffe2ebd, type: 3}
   newSelectionTransform: {fileID: 0}
   DistanceThreshold: 60
 --- !u!4 &1406238811

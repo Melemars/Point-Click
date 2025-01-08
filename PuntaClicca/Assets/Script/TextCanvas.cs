@@ -53,7 +53,6 @@ public class TextCanvas : MonoBehaviour
     }
 
     private void ShowText(string newText){
-        Debug.Log(Bg_text);
         if(Bg_text != null){
             Bg_text.SetActive(true);
             charText.text = newText; 
@@ -61,7 +60,6 @@ public class TextCanvas : MonoBehaviour
     }
 
     private void HideText(){
-        Debug.Log(Bg_text);
         if(Bg_text != null)
             Bg_text.SetActive(false);
     }
