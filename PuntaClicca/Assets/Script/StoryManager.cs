@@ -12,14 +12,15 @@ public class StoryManager : MonoBehaviour
     }
 
     void Start() {
-        Debug.Log("Ciao");
         this.director.Play();  
     }
 
     public void StartStory(PlayableDirector timeline)
     {
-        this.director = timeline;
-        this.director.Play();
+        if (timeline != null){
+            this.director = timeline;
+            this.director.Play();
+        }
     }
     
 }

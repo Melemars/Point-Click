@@ -15,12 +15,15 @@ public class Minigame : MonoBehaviour
         Instance = this;
     }
     
-    public bool CheckMinigamePuzzle(bool orderMatters)
+    public bool CheckMinigamePuzzle(bool orderMatters, bool PhraseObjectsMatters)
     {
         if (tryItems.Count() == 0 || tryItems.Count() != correctItems.Count())
         {
             //Debug.Log("false");
             OnMinigameEnd.Invoke();
+            if (tryItems.Count() != 0){
+                CheckObjectPhrase(PhraseObjectsMatters, 0);
+            }
             ClearTryList();
             return false;
         }
@@ -33,6 +36,7 @@ public class Minigame : MonoBehaviour
                 if (correctItems.Contains(this.tryItems[i]) == false)
                 {
                     OnMinigameEnd.Invoke();
+                    CheckObjectPhrase(PhraseObjectsMatters, i);
                     ClearTryList();
                     return false;
                 }
@@ -45,6 +49,7 @@ public class Minigame : MonoBehaviour
                 if (correctItems[i] != this.tryItems[i])
                 {
                     OnMinigameEnd.Invoke();
+                    CheckObjectPhrase(PhraseObjectsMatters, i);
                     ClearTryList();
                     return false; 
                 }
@@ -59,5 +64,10 @@ public class Minigame : MonoBehaviour
     public void ClearTryList()
     {
         this.tryItems.Clear();
+    }
+
+    public void CheckObjectPhrase(bool PhraseObjectsMatters, int index){
+        if (PhraseObjectsMatters)
+            TextCanvas.OnShowErrorMinigameText(tryItems[index]);
     }
 }

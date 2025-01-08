@@ -17,5 +17,6 @@ MonoBehaviour:
   InteractionPhrases: []
   yesInteractionPhrase: "Il gancio si \xE8 staccato dal muro ed \xE8 caduto\u2026
     dopo lo riparer\xF2. Ma dov\u2019\xE8 finita la chiave?"
+  errorMinigamePhrase: Non mi serve il gancio per aprire la porta...
   InventoryImgTag: InventorySlot3
   characterSprite: {fileID: 0}

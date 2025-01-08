@@ -6,8 +6,8 @@ public class InteractablePickUse : MonoBehaviour, IInteractable
     [SerializeField]
     private ItemScriptableObject item;
     private int numInteractionPhrase = 0;
-    private bool AddItem = true;
-    
+    [SerializeField]
+    private bool AddItem;
     [SerializeField]
     private PlayableDirector director;
     
