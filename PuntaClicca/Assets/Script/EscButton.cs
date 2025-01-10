@@ -26,4 +26,14 @@ public class EscButton : MonoBehaviour
         }
         EscCanvas();
     }
+
+    public void EscBook(){
+        BookButton.OnBookClose();
+        EscCanvas();
+    }
+
+    public void EscBookWithTimeline(){
+        BookButton.OnBookClose();
+        EscWithTimeline();
+    }
 }
