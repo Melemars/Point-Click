@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Corridoio.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Soffitta.unity
+    guid: f846438eff8037c41a216eb2c38bcf6f
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: 32a9cf20dfa69f24a84aa604bc862010
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

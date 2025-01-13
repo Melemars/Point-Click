@@ -2,15 +2,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 
-public class HallwayOkButton : MonoBehaviour
+public class MinigameOkButton : MonoBehaviour
 {
     [SerializeField] private GameObject MinigameCanvas;
-    [SerializeField] private ItemScriptableObject doorEvent;
+    [SerializeField] private ItemScriptableObject Event;
     [SerializeField] private PlayableDirector director;
     [SerializeField] private List<int> ObjectToRemove;
     
-    private bool orderMatters = false;
-    private bool phraseObjectsMatters = false;
+    [SerializeField] private bool orderMatters;
+    [SerializeField] private bool phraseObjectsMatters;
     
     
     public void OkButton()
@@ -18,16 +18,16 @@ public class HallwayOkButton : MonoBehaviour
         if (Minigame.Instance.CheckMinigamePuzzle(orderMatters, phraseObjectsMatters))
         {
             GameHandler.OnCanvasDisappear?.Invoke();
-            MinigameCanvas.SetActive(false);
-            TextCanvas.OnShowYesText(doorEvent);
-            Inventory.Instance.RemoveItemInInventoryById(ObjectToRemove);
             //do things and remember to setActive(false) using timeline on Interactable which active Minigame
-            //StoryManager.Instance.StartStory(director);
+            TextCanvas.OnShowYesText(Event);
+            StoryManager.Instance.StartStory(director);
+            Inventory.Instance.RemoveItemInInventoryById(ObjectToRemove);
+            MinigameCanvas.SetActive(false);
         }
         else
         {
             if (!phraseObjectsMatters){    
-                TextCanvas.OnShowErrorMinigameText(doorEvent);
+                TextCanvas.OnShowErrorMinigameText(Event);
             }
             GameHandler.OnCanvasDisappear?.Invoke();
             MinigameCanvas.SetActive(false);

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 2
   RequiredItemsId: ffffffff
-  InteractionPhrases:
-  - Posso scalare la corda, ma non so come attaccarla alla finestra
+  InteractionPhrases: []
   yesInteractionPhrase: E questa prima c'era? Ma sembra la stessa del libro!
+  errorMinigamePhrase: Posso scalare la corda, ma non so come attaccarla alla finestra
   InventoryImgTag: InventorySlot2
   characterSprite: {fileID: 0}

@@ -5,7 +5,7 @@ public class InteractableMinigame : MonoBehaviour, IInteractable
     [SerializeField] private GameObject MinigameCanvas;
     [SerializeField] private ItemScriptableObject itemEvent;
     private bool AddItem = false;
-    private int numInteractionPhrase = 1;
+    private int numInteractionPhrase = 0;
     
     public void OnClickAction()
     {

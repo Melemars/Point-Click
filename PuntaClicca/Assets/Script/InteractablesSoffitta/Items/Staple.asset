@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 0
   RequiredItemsId: ffffffff
-  InteractionPhrases:
-  - "Questo gancio \xE8 piuttosto solido, ma non posso usare solo quello per scendere
-    dalla finestra"
+  InteractionPhrases: []
   yesInteractionPhrase: 
+  errorMinigamePhrase: "Questo gancio \xE8 piuttosto solido, ma non posso usare solo
+    quello per scendere dalla finestra"
   InventoryImgTag: InventorySlot1
   characterSprite: {fileID: 0}
