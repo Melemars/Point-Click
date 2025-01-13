@@ -471,7 +471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 0e03b3710f93aa246abf6c55bee084e2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3772,7 +3772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bg_text: {fileID: 2035069904}
   characterPortrait: {fileID: 104709842}
-  mainCharactePortrait: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  mainCharactePortrait: {fileID: 21300000, guid: 0e03b3710f93aa246abf6c55bee084e2, type: 3}
   charText: {fileID: 1967304522}
 --- !u!1 &971366837
 GameObject:

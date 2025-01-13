@@ -17,6 +17,7 @@ MonoBehaviour:
   InteractionPhrases:
   - Devo trovare un modo per andarmene
   - Potrei uscire dalla finestra, ma da questa altezza mi farei male
-  yesInteractionPhrase: 
+  yesInteractionPhrase: "\xE9 il momento di uscire di qui!"
+  errorMinigamePhrase: 
   InventoryImgTag: 
   characterSprite: {fileID: 0}
