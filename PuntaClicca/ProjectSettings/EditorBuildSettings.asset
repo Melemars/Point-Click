@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Pianura.unity
     guid: e384da8b5311d004ea18f289ed2946ee
   - enabled: 1
+    path: Assets/Scenes/Grotta.unity
+    guid: 77a0cc9b618de6e4589c56753dbbe665
+  - enabled: 1
     path: Assets/Scenes/Final.unity
     guid: 32a9cf20dfa69f24a84aa604bc862010
   m_configObjects:
