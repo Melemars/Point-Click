@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Playables;
 public class StoryManager : MonoBehaviour
 {
-    [SerializeField] private PlayableDirector director;
+    [SerializeField] public PlayableDirector director;
     
     public static StoryManager Instance;
 

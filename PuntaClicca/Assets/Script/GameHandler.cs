@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using UnityEngine.Playables;
+using UnityEngine.Timeline;
 using UnityEngine.UI;
 
 public class GameHandler : MonoBehaviour
@@ -7,10 +9,10 @@ public class GameHandler : MonoBehaviour
     [SerializeField] private GameObject interactableManager;
     [SerializeField] private Button bookButton;
     [SerializeField] private GameObject cursorManager;
-    
+
     public static Action OnCanvasAppear;
     public static Action OnCanvasDisappear;
-    
+
     private void OnEnable()
     {
         OnCanvasAppear += StopInteractableManager;
@@ -41,4 +43,5 @@ public class GameHandler : MonoBehaviour
             bookButton.enabled = true;
         }
     }
+
 }

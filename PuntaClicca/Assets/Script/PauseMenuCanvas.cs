@@ -23,7 +23,7 @@ public class PauseMenuCanvas : MonoBehaviour
         {
             _isPause=true;
             MainMenu.SetActive(true);
-            GameHandler.OnCanvasAppear?.Invoke();
+            GameHandler.OnCanvasAppear?.Invoke(); 
             Time.timeScale = 0;
         }
     }
@@ -34,6 +34,7 @@ public class PauseMenuCanvas : MonoBehaviour
         MainMenu.SetActive(false);
         GameHandler.OnCanvasDisappear?.Invoke();
         Time.timeScale = 1f;
+        
     }
 
     public void ReturnStartScene()
